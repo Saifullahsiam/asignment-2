@@ -1,3 +1,197 @@
 /*-----------------------------------
  start all css code world cup 
  ----------------------------------------*/
+
+/* this is font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* this is all common style */
+
+
+body {
+
+    /* font style */
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+/* start header style */
+
+header {
+    width: 85%;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    margin: 50px 140px 100px 130px;
+    display: flex;
+
+    border: 2px solid red;
+}
+
+.header-content {
+    width: 40%;
+    height: 100%;
+    padding-left: 90px;
+    border: 2px solid wheat;
+}
+
+.header-heading {
+
+    width: 100%;
+    height: 40%;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+
+}
+
+.header-details {
+    width: 90%;
+    height: 20%;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.watch-button {
+    text-decoration: none;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+
+}
+
+
+.header-img {
+    width: 60%;
+    height: 100%;
+
+    border: 3px solid seagreen;
+}
+
+.man-img {
+    width: 90%;
+    height: 613px;
+    padding-top: 30px;
+}
+
+/*-----------------
+         start main atyle
+ -----------------------------  */
+
+/* main item */
+main {
+    display: flex;
+    margin-left: 10%;
+    width: 85%;
+
+    border: 2px solid sandybrown;
+}
+
+.main-item {
+    width: 250px;
+    height: 250px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.main-item>a {
+    margin: 30px 30px 0px 30px;
+    color: #161616;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+}
+
+.item-all {
+    border: 2px solid slateblue;
+}
+
+
+/* start mai 2 all style */
+
+.main-2nd {
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.second-item {
+    width: 265px;
+    height: 328px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.seconditem-img {
+    width: 100%;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.second-content {
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+
+.transfer-button {
+    margin-top: 7px;
+    width: 90px;
+    height: 28px;
+    font-size: 16px;
+}
+
+.secondcon-details {
+    width: 250px;
+    height: 52px;
+    font-size: 15px;
+    color: #161616;
+    margin: 0px;
+    padding-top: 7px;
+}
+
+
+.item-logo {
+    margin-top: 4px;
+    display: flex;
+    column-gap: 30px;
+}
+
+
+/*-----------------------
+ start footer all style 
+ ------------------------------*/
+
+footer {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #161616;
+    text-align: center;
+
+
+}
+
+.footer-item {
+    display: flex;
+    column-gap: 40px;
+    margin-left: 20%;
+
+}
+
+.footer-item,
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
