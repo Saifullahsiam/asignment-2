@@ -26,14 +26,13 @@ header {
     margin: 50px 140px 100px 130px;
     display: flex;
 
-    border: 2px solid red;
 }
 
 .header-content {
     width: 40%;
     height: 100%;
     padding-left: 90px;
-    border: 2px solid wheat;
+
 }
 
 .header-heading {
@@ -65,12 +64,6 @@ header {
 }
 
 
-.header-img {
-    width: 60%;
-    height: 100%;
-
-    border: 3px solid seagreen;
-}
 
 .man-img {
     width: 90%;
@@ -88,7 +81,7 @@ main {
     margin-left: 10%;
     width: 85%;
 
-    border: 2px solid sandybrown;
+
 }
 
 .main-item {
@@ -181,8 +174,6 @@ footer {
     background-color: #161616;
     text-align: center;
 
-    border: 2px solid saddlebrown;
-
 }
 
 .footer-head {
@@ -209,3 +200,97 @@ a {
 }
 
 /* end this footer section all style code */
+
+/* this is all media quaries all style */
+
+/* ----------------
+mobile device
+---------------------- */
+
+@media screen and (max-width:688px) {
+
+    header,
+    main,
+    .main-2nd,
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4%;
+    }
+
+    header {
+        width: 85%;
+
+    }
+
+    .header-content {
+        text-align: center;
+        width: auto;
+        height: 49%;
+        padding: 0% 5% 0% 5%;
+
+
+
+    }
+
+
+    .header-heading {
+        height: 30%;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    .header-details {
+        height: 30%;
+        padding-top: -10px;
+        font-size: 15px;
+
+    }
+
+    .watch-button {
+        height: 15%;
+        padding: 5px 10px;
+
+    }
+
+    .header-img {
+
+        height: 50%;
+        width: 100%;
+    }
+
+    .man-img {
+        padding-top: 0px;
+        margin-top: 1%;
+        align-items: center;
+        margin-left: 20%;
+        height: 98%;
+        width: 70%;
+    }
+
+
+
+    .main-item,
+    .main-2nd {
+        margin-top: -80px;
+        margin-left: 10%;
+    }
+
+    .main-2nd {
+        margin-top: 30px;
+    }
+
+    footer {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer-head {
+        margin-top: 30px;
+    }
+
+    .footer-item {
+        margin-top: 0px;
+        row-gap: 20px;
+    }
+}
