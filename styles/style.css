@@ -519,15 +519,14 @@ table device
         margin-top: 20px;
     }
 
+
+
     .footer-item {
+        column-gap: 0px;
         margin-left: -20px;
-
-    }
-
-    .footer-item {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: -100px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0px;
         grid-row-gap: 20px;
     }
 
